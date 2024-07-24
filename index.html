@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <section>
+            <h2>Formulário e Contato</h2>
+            <form action="#">
+                <p>
+                    <label for="nome">*Nome:</label>
+                    <input type="text" id="nome" name="nome">
+                    
+
+                    
+                </p>
+                <p>
+                    <label for="email">*Email</label>
+                    <input type="text" id="emai" name="emai"> 
+                </p>
+                <p>
+                    <label for="tell">*Telefone</label>
+                    <input type="tel"id="telefone" name="telefone"
+                </p>
+                <p>
+                    <label for="setor">Setor</label>
+                    <select name="setor" id="setor">
+                         <option value="1">Vendas</option>
+                         <option value="2">Financeiro</option>
+                         <option value="3">Administrador</option>
+
+                    </select>
+
+
+                </p>
+                <p>
+                    <label for="mensagem">Mensagem</label>
+                    <textarea name="mensagem" id="mensagem" cols="80" rows="10"></textarea>
+                </p>
+                <fieldset>
+                    <legend>Comunicaçao Urgente</legend>
+                    <label>Sim <input type="radio" name="comunicacao" value="1"></label>
+                    <label>Não <input type="radio" name="comunicacao" value="1"></label>
+                </fieldset>
+                <fieldset>
+                <legend>Obtive conhecimento do Projeto</legend>
+                <label>Buscador<input type="checkbox" name="conhecimento"></label>
+                <label>Publicidade</label>r<input type="checkbox" name="conhecimento"></label>
+                <label>Amigos<input type="checkbox" name="conhecimento"></label>
+                <label>Email<input type="checkbox" name="conhecimento"></label>
+                <label>outros<input type="checkbox" name="conhecimento"></label>
+                </fieldset>
+                <input type="reset" value="Limpar">
+                 <input type="enviar" value="enviar">
+            </form>
+        </section>
+    </main>
+    
+</body>
+</html>
